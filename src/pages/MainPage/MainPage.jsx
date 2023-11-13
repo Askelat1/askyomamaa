@@ -50,7 +50,7 @@ function MainPage(props) {
         <nav>
           <img className={module.nav_item} src={logo}></img>
           <div className={module.navCategory}>
-            <div className={module.nav_cat}>категория</div>
+          <Link to={'/korean'}><div className={module.nav_cat}>категория</div></Link>
             <div><img className={module.nav_img} src={vector}></img></div>
           </div>
           <Link to={'/recipes'}>О нас</Link>

@@ -36,7 +36,7 @@ function SignIn(props) {
             </form>
 
             <div className={module.regist}>
-            <Link to={'/signIn'}><input className={module.regist_text} type="submit" name="submit" value="Зарегистрироваться"/></Link>
+            <input className={module.regist_text} type="submit" name="submit" value="Зарегистрироваться"/>
                     <hr className={module.hr} />
             </div>
             <div className={module.sign_up}>
@@ -52,7 +52,7 @@ function SignIn(props) {
 
             <div className={module.sign_in}>
                 <div className={module.block2_text}>Вход через социальные сети</div>
-                <input className={module.signIn_text} type="submit" name="submit" value="Войти"/>
+                <Link to={'/signIn'}><input className={module.signIn_text} type="submit" name="submit" value="Войти"/></Link>
             </div>
 
         </div>

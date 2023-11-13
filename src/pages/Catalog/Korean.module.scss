@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:cursive ;
+}
+
+header {
+    margin-top: 20px;
+}
+
+nav {
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 20vh;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+ul,li{
+    list-style: none;
+}
+
+
+.navCategory {
+    display: flex;
+    width: Fixed (186px);
+    height: Fixed (36px);
+    padding: 8px 20px;
+    border-radius: 57px;
+    border: 2px solid #000;
+    gap: 40px;
+}
+
+.nav_img {
+    cursor: pointer;
+}
+
+.nav_itemStart {
+    text-align: center;
+    align-items: center;
+    background-color: black;
+    padding: 7px 7vh;
+    border-radius: 59px;
+    gap: 10px;
+}
+
+.itemStart {
+    cursor: pointer;
+    color: white;
+}
+
+.container_1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .block_1 {
+        display: block;
+        margin: 0 0px 0 10vh;
+
+        .tittle {
+            font-size: 52px;
+            font-weight: 400;
+            line-height: 59px;
+        }
+
+        .info {
+            font-size: 18px;
+            margin-top: 20px;
+        }
+
+        .bfm {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-top: 8vh;
+
+
+            .button {
+                cursor: pointer;
+                padding: 1vh 29vh ;
+                border: 1px;
+                border-radius: 59px;
+                background-color: #FFB84E;
+            }
+        }
+
+        .korzina {
+            display: flex;
+            // justify-content: space-;
+            padding: 1vh 2vh;
+            border: 1px;
+            border-radius: 19px;
+            background-color: gray;
+
+            .icon {
+                display: flex;
+                justify-content: center;
+                width: 20px;
+            }
+        }
+
+    }
+
+    .rice {
+        width: 800px;
+        margin-bottom: 20vh;
+    }
+}
+
+.schedule {
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
